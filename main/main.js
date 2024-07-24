@@ -9,10 +9,10 @@ div_formulario.className = "div-formularios";
 
 //lista de textos
 let formularios =   [
-    {nombre:"login", link:"https:"},
-    {nombre:"login", link:"https:"},
-    {nombre:"login", link:"https:"},
-    {nombre:"login", link:"https:"},
+    {nombre:"login", link:"componentes/login/login.html"},
+    {nombre:"login", link:"#"},
+    {nombre:"login", link:"#"},
+    {nombre:"login", link:"#"},
      ];
 
 //forEach (for)
