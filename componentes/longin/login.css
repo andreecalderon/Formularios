@@ -1,0 +1,60 @@
+.box-login {
+    width: 100%;
+    max-width: 120rem;
+    height: 60rem;
+    margin: auto;
+    margin: 5%;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 65rem auto;
+}
+
+.box-login .formulario {
+    height: 100%;
+    padding: 10rem 15rem;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    gap: 1rem;
+}
+
+.box-login .logo {
+    grid-column: 1/9;
+}
+
+.box-login h2 {
+    grid-column: 1/9;
+}
+.box-login .btn-facebook {
+    grid-column: 1/4;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 236);
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-login .btn-xing {
+    grid-column: 5/8;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(8, 44, 8);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-login span {
+    grid-column: 1/9;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
